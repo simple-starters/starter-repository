@@ -1,3 +1,17 @@
+---
+name: none  # Note, this is a reserved name for a no-op generator.
+displayName: No deployment configuation
+description: Does not add additional deployment configuration to the new project.
+iconUrl: https://icon-library.com/images/rick-sanchez-icon/rick-sanchez-icon-24.jpg
+maintainer: risbergt@vmware.com
+version: 1.0.0
+tags: none
+commands: |-
+  none new
+sourceUrl: github.com/simple-starters/generator-none
+homeUrl: https://github.com/simple-starters/generator-none
+
+---
 name: kubernetes-kustomize-skaffold
 displayName: Spring Boot on Kubernetes using Kustomize and Skaffold
 description: Deploy a Spring Boot application on Kubernetes using kustomize, off-the-shell kustomizations, and deploy using skaffold.
