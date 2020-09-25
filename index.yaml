@@ -17,15 +17,4 @@ generatorMetadataNames:
 actionNames:
   - github-repo-create
 
----
-name: none  # Note, this is a reserved name for a no-op generator.
-displayName: No deployment configuration
-description: Does not add additional deployment configuration to the new project.
-iconUrl: https://icon-library.com/images/rick-sanchez-icon/rick-sanchez-icon-24.jpg
-maintainer: risbergt@vmware.com
-version: 1.0.0
-tags: none
-commands: |-
-  none new
-sourceUrl: github.com/simple-starters/generator-none
-homeUrl: https://github.com/simple-starters/generator-none
+
