@@ -40,17 +40,16 @@ sourceUrl: github.com/simple-starters/generator-k8s-simple?ref=1.1.3
 homeUrl: https://github.com/simple-starters/generator-k8s-simple
 
 ---
-name: kubernetes-resource-simple
-displayName: Spring Boot on Kubernetes using kubectl apply
-description: Deploy a Spring Boot application using a few Kubernetes resource files with kubectl.
-iconUrl: https://icon-library.com/images/rick-sanchez-icon/rick-sanchez-icon-24.jpg
+name: knative-kustomize-skaffold
+displayName: Spring Boot with Knative Service using Kustomize and Skaffold
+description: Deploy a Spring Boot application using Jib for build, kustomize off-the-shell kustomizations for Knative Service, and deploy using skaffold.
+iconUrl: https://avatars3.githubusercontent.com/u/35583233?s=280&v=4
 maintainer: mpollack@vmware.com
-tags: kubernetes, spring
+version: 1.0.0
+tags: skaffold, kubernetes, knative, spring
 commands: |-
-  k8s-simple new
-  k8s-simple new-services
-version: 1.1.1
-sourceUrl: github.com/simple-starters/generator-k8s-simple?ref=1.1.3
-homeUrl: https://github.com/simple-starters/generator-k8s-simple
-
+  knative new
+  knative update
+sourceUrl: github.com/markpollack/generator-knative-kustomize-skaffold
+homeUrl: https://github.com/markpollack/generator-knative-kustomize-skaffold
 
