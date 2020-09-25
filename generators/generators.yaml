@@ -1,0 +1,42 @@
+name: kubernetes-kustomize-skaffold
+displayName: Spring Boot on Kubernetes using Kustomize and Skaffold
+description: Deploy a Spring Boot application on Kubernetes using kustomize, off-the-shell kustomizations, and deploy using skaffold.
+iconUrl: https://icon-library.com/images/rick-sanchez-icon/rick-sanchez-icon-24.jpg
+maintainer: mpollack@vmware.com
+version: 1.0.0
+tags: skaffold, kubernetes, spring
+commands: |-
+  k8s new
+  k8s update
+sourceUrl: github.com/simple-starters/generator-boot-k8s-kustomize-skaffold?ref=1.0.0
+homeUrl: https://github.com/simple-starters/generator-boot-k8s-kustomize-skaffold
+
+---
+name: kubernetes-resource-simple
+displayName: Spring Boot on Kubernetes using kubectl apply
+description: Deploy a Spring Boot application using a few Kubernetes resource files with kubectl.
+iconUrl: https://icon-library.com/images/rick-sanchez-icon/rick-sanchez-icon-24.jpg
+maintainer: mpollack@vmware.com
+tags: kubernetes, spring
+commands: |-
+  k8s-simple new
+  k8s-simple new-services
+version: 1.1.1
+sourceUrl: github.com/simple-starters/generator-k8s-simple?ref=1.1.3
+homeUrl: https://github.com/simple-starters/generator-k8s-simple
+
+---
+name: kubernetes-resource-simple
+displayName: Spring Boot on Kubernetes using kubectl apply
+description: Deploy a Spring Boot application using a few Kubernetes resource files with kubectl.
+iconUrl: https://icon-library.com/images/rick-sanchez-icon/rick-sanchez-icon-24.jpg
+maintainer: mpollack@vmware.com
+tags: kubernetes, spring
+commands: |-
+  k8s-simple new
+  k8s-simple new-services
+version: 1.1.1
+sourceUrl: github.com/simple-starters/generator-k8s-simple?ref=1.1.3
+homeUrl: https://github.com/simple-starters/generator-k8s-simple
+
+
